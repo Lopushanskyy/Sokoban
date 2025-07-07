@@ -2,7 +2,7 @@ package pt.iscte.poo.sokobanstarter;
 
 import java.util.List;
 
-import pt.iscte.poo.utils.Point2D;
+import pt.iscte.poo.sokobanstarter.utils.Point2D;
 
 public class Palete extends GameElement implements Movable {
 

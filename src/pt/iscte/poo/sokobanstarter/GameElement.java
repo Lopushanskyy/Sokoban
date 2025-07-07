@@ -1,8 +1,8 @@
 package pt.iscte.poo.sokobanstarter;
 
-import pt.iscte.poo.gui.ImageTile;
-import pt.iscte.poo.utils.Direction;
-import pt.iscte.poo.utils.Point2D;
+import pt.iscte.poo.sokobanstarter.gui.ImageTile;
+import pt.iscte.poo.sokobanstarter.utils.Direction;
+import pt.iscte.poo.sokobanstarter.utils.Point2D;
 
 public abstract class GameElement implements ImageTile {
 

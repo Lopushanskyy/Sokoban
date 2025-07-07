@@ -2,8 +2,8 @@ package pt.iscte.poo.sokobanstarter;
 
 import java.util.List;
 
-import pt.iscte.poo.utils.Direction;
-import pt.iscte.poo.utils.Point2D;
+import pt.iscte.poo.sokobanstarter.utils.Direction;
+import pt.iscte.poo.sokobanstarter.utils.Point2D;
 
 public class Empilhadora extends GameElement {
 

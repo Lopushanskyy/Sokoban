@@ -9,12 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import pt.iscte.poo.gui.ImageMatrixGUI;
-import pt.iscte.poo.gui.ImageTile;
-import pt.iscte.poo.observer.Observed;
-import pt.iscte.poo.observer.Observer;
-import pt.iscte.poo.utils.Point2D;
-import pt.iscte.poo.utils.Direction;
+import pt.iscte.poo.sokobanstarter.gui.ImageMatrixGUI;
+import pt.iscte.poo.sokobanstarter.gui.ImageTile;
+import pt.iscte.poo.sokobanstarter.observer.Observed;
+import pt.iscte.poo.sokobanstarter.observer.Observer;
+import pt.iscte.poo.sokobanstarter.utils.Point2D;
+import pt.iscte.poo.sokobanstarter.utils.Direction;
 
 public class GameEngine implements Observer {
 
@@ -62,7 +62,6 @@ public class GameEngine implements Observer {
 		gui.go(); // 4. lancar a GUI
 
 		setNamePlayer();
-		gui.setMessage("Bem-vindo " + this.playerName + "!" + System.lineSeparator() + "Boa Sorte!");
 		gui.setMessage("Press 'R' to Restart " + System.lineSeparator() + "Press 'ESC' to Exit" + System.lineSeparator()
 				+ "Press 'ENTER' to Continue");
 

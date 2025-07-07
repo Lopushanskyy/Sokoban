@@ -1,6 +1,6 @@
 package pt.iscte.poo.sokobanstarter;
 
-import pt.iscte.poo.utils.Point2D;
+import pt.iscte.poo.sokobanstarter.utils.Point2D;
 
 public class Parede extends GameElement implements Obstaculo {
 
